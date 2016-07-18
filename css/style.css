@@ -1,0 +1,65 @@
+body{ font-size: 12px; font-family: microsoft yahei;}
+.w{ width: 942px; margin: 0 auto;}
+
+.ic, .same .tit-list li a { background-image: url(../images/ic.png); _background-image: url(../images/ic8.png); 
+	background-repeat: no-repeat }
+.lv-title { font-family: microsoft yahei; font-size: 22px; font-weight: 700; height: 40px; line-height: 40px }
+.hotel .super { position: relative }
+.hotel .super .p-img img { width: 210px; height: 432px }
+.hotel .super .p-name { width: 108px }
+.hotel .super .gray-extra { width: 190px }
+.hotel .lv-title { border-bottom: 3px solid #62a8e8 }
+.hotel .tab { height: 432px; width: 695px; float: left }
+.hotel .tab-con { height: 432px; width: 695px }
+.hotel .tab-con .left .left-list li, .hotel .tab-con .left .left-list li img { width: 338px; height: 211px }
+.hotel .tab-con .left .left-list li .gray-extra { bottom: -1px }
+.hotel .com-left .grand-wrap { height: 188px }
+.hotel .com-left .grand-wrap .grand { height: 168px }
+.hotel .com-left .grand-wrap .grand h3 { border-left: 3px solid #62a8e8 }
+.hotel .com-left .grand-wrap .grand .list { height: 148px }
+.hotel .com-left .brand-min { width: 294px; height: 107px; line-height: 107px; background-color: #f8f8f8 }
+.hotel .com-left .brand-min img { width: 294px; height: 107px }
+.hotel .com-left .brand-min b { float: right; font-family: microsoft yahei; font-size: 24px; color: #62a8e8; font-weight: 700; padding-right: 20px }
+.hotel .com-left .brand-min .listinfo { width: 294px; height: 107px; display: block }
+.hotel .com-left .brand-min .ic { font-family: microsoft yahei; font-size: 24px; color: #62a8e8; font-weight: 700; background-position: -325px -236px; padding: 30px 0 25px 99px }
+.hotel .com-left .brand-min .ic2 { background-position: -321px -314px }
+.hotel .tit { border-bottom: 3px solid #62a8e8 }
+.hotel .tit .more, .hotel .tit .more:hover { color: #62a8e8 }
+.hotel .tit .tit-list li a { background-position: -119px -348px; color: #62a8e8 }
+.hotel .tit .tit-list li a:hover { color: #62a8e8; background-position: 0 -359px }
+.hotel .tit .tit-list li.curr a { background-position: 0 -359px; color: #62a8e8 }
+.same { overflow: hidden }
+.same .right { width: 685px }
+.same h3 { height: 18px; line-height: 18px; font-size: 14px; color: #666; border-left: 3px solid #87b44f; padding-left: 7px }
+.same .com-left { width: 294px }
+.same .com-left .grand-wrap { height: 313px; background: #f8f8f8; padding-bottom: 20px; overflow: hidden }
+.same .com-left .brand-min { margin-top: 10px }
+.same .com-left .grand { padding: 20px 10px 0; height: 140px; overflow: hidden }
+.same .com-left .grand .list { padding-top: 10px }
+.same .com-left .grand .list li { width: 275px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap }
+.same .com-left .grand .list a { margin: 0 10px; line-height: 23px; white-space: nowrap; display: inline-block }
+.same .com-left .grand .list a:hover { color: #666 }
+.same .tit { height: 40px; line-height: 40px; margin-bottom: 10px; border-bottom: 3px solid #88b44f }
+.same .tit .more { width: 113px; height: 33px; font-size: 14px; font-family: microsoft yahei; line-height: 33px; color: #88b44f; border: 1px solid #ddd; text-align: center; font-weight: 700 }
+.same .tit .more:hover { text-decoration: none }
+.same .tit .tit-list { font-family: microsoft yahei; font-size: 14px; overflow: hidden; width: 780px; height: 40px }
+.same .tit .tit-list li { float: left; overflow: hidden; height: 40px }
+.same .tit .tit-list li.curr a { color: #88b44f; font-weight: 700; text-decoration: none; background-position: -520px -159px }
+.same .tit .tit-list li a { padding: 0 20px 0 30px; background-position: -513px -98px; display: inline-block; height: 40px; line-height: 40px }
+.same .tit .tit-list li a:hover { color: #88b44f; font-weight: 700; text-decoration: none; background-position: -520px -159px }
+.same .tab, .same .tab-con { width: 905px; height: 452px; overflow: hidden }
+.same .tab-con .super { position: relative }
+.same .tab-con .super .p-name { width: 108px }
+.same .tab-con .super .mask-extra { left: 12px; bottom: 20px; width: 165px; padding: 0 10px }
+.same .tab-con .super .mask-extra .text1 { font-size: 22px; height: 47px; line-height: 47px }
+.same .tab-con .super .mask-extra .text2 { font-size: 18px; height: 47px; line-height: 47px }
+.same .tab-con .super .mask-extra .text2 .fmv { font-family: verdana }
+.same .tab-con .super .gray-extra { width: 190px }
+.same .tab-con .left .leftt { position: relative }
+.same .tab-con .left .leftt .mask-extra { bottom: 88px; left: 10px }
+.same .tab-con .left .left-list .fore1, .same .tab-con .left .left-list .fore3 { margin-right: 10px; _display: inline }
+.same .tab-con .left .left-list .fore1, .same .tab-con .left .left-list .fore2 { margin-bottom: 10px }
+.same .tab-con .left .left-list li { position: relative; width: 338px; height: 220px }
+.same .tab-con .left .left-list li .gray-extra { width: 318px }
+.same .gray-extra .p-price { float: right }
+.same .gray-extra .p-name { float: left; width: 228px }
