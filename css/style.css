@@ -26,10 +26,19 @@ body { font-size: 12px; font-family: microsoft yahei; }
 .brand .services { height: 85px; font-size: 16px; color: #fff; padding: 25px 0 0 34px; }
 .brand .services a:link, .brand .services a:visited { color: #fff; }
 .brand .services a:hover { text-decoration: underline; }
-.brand1 .services { background: #1879d6; }
-.brand2 .services { background: #f0387e; }
-.brand3 .services { background: #92c444; }
+
+.brand .services { background: #323232; }
 .brand .services li { width: 90px; float: left; height: 30px; }
+.brand1 .head{ background: url(../images/services1_dark.png) no-repeat; height: 44px;}
+.brand2 .head{ background: url(../images/services2_dark.png) no-repeat; height: 44px;}
+.brand3 .head{ background: url(../images/services3_dark.png) no-repeat; height: 44px;}
+.brand1:hover .head{background: url(../images/services1.png) no-repeat;}
+.brand2:hover .head{background: url(../images/services2.png) no-repeat;}
+.brand3:hover .head{background: url(../images/services3.png) no-repeat;}
+.brand1:hover .services{background: #1879d6;}
+.brand2:hover .services{background: #f0387e;}
+.brand3:hover .services{background: #92c444;}
+
 .outdoor { margin-top: 35px; }
 .outdoor-content { margin-top: 55px; }
 .outdoor ul { margin: 0 -12px; }
@@ -113,7 +122,7 @@ body { font-size: 12px; font-family: microsoft yahei; }
 .pic .l3 { background-image: url(../images/3.jpg); }
 .pic .l4 { background-image: url(../images/4.jpg); width: 730px; }
 .cross-country { margin-top: 10px; }
-.multi{}
+.multi{ clear: both; margin-top: 50px;}
 .multi .col-left{width: 539px; float: left;}
 .multi .col-right{width: 392px; float: right;}
 .multi-head{ font-size: 22px; font-weight: bold; color: #666; border-bottom: 4px solid #b477db; position: relative;}
